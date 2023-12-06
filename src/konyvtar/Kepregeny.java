@@ -5,12 +5,12 @@ import java.util.UUID;
 public class Kepregeny extends Termek{
     private boolean sorozat;
     
-    public Kepregeny(String szerzo, String cim, String kategoria, UUID id) {
-        super(szerzo, cim, kategoria, id);
+    public Kepregeny(String szerzo, String cim, String kategoria) {
+        super(szerzo, cim, kategoria);
     }
     
-    public Kepregeny(String szerzo, String cim, String kategoria, UUID id, boolean sorozat) {
-        super(szerzo, cim, kategoria, id);
+    public Kepregeny(String szerzo, String cim, String kategoria, boolean sorozat) {
+        super(szerzo, cim, kategoria);
         this.sorozat=sorozat;
     }
 

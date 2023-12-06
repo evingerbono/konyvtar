@@ -8,13 +8,8 @@ package konyvtar;
  *
  * @author VinczeffyGergely(SZF
  */
-public class main {
-
-    public static void main(String[] args) {
-        run();
-    }
-
-    private static void run() {
-        Konyvtar konyvtar = new Konyvtar();
-    }
+public enum Kategoria {
+        Konyv,
+        Kepregeny
+    
 }

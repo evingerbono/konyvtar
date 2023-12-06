@@ -6,12 +6,12 @@ import java.util.UUID;
 public class Konyv extends Termek implements Kolcsonozhat{
     private String boritas;
     
-    public Konyv(String szerzo, String cim, String kategoria, UUID id) {
-        super(szerzo, cim, kategoria, id);
+    public Konyv(String szerzo, String cim, String kategoria) {
+        super(szerzo, cim, kategoria);
     }
     
-    public Konyv(String szerzo, String cim, String kategoria, UUID id, String boritas) {
-        super(szerzo, cim, kategoria, id);
+    public Konyv(String szerzo, String cim, String kategoria, String boritas) {
+        super(szerzo, cim, kategoria);
         this.boritas=boritas;
     }
 

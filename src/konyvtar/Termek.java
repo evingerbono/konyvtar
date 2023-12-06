@@ -9,7 +9,7 @@ public abstract class  Termek {
     private String kategoria;
     private UUID id;
 
-    public Termek(String szerzo, String cim, String kategoria, UUID id) {
+    public Termek(String szerzo, String cim, String kategoria) {
         this.szerzo = szerzo;
         this.cim = cim;
         this.kategoria = kategoria;
