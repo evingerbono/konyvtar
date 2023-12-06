@@ -13,7 +13,7 @@ public abstract class  Termek {
         this.szerzo = szerzo;
         this.cim = cim;
         this.kategoria = kategoria;
-        this.id=id;
+        this.id=UUID.randomUUID();
     }
 
     public String getSzerzo() {

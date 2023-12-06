@@ -23,6 +23,11 @@ public class Konyv extends Termek implements Kolcsonozhat{
     public void kolcsonoz() {
         System.out.println("A könyv kivan kölcsönözve");
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+"boritas=" + boritas;
+    }
     
     
 }
